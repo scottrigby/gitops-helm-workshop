@@ -4,7 +4,7 @@ metadata:
   name: helm-tester
   namespace: prod
   annotations:
-    fluxcd.io/ignore: "true"
+    fluxcd.io/ignore: "false"
 spec:
   releaseName: helm-tester
   chart:

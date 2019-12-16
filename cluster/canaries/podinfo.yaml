@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: prod
   annotations:
-    fluxcd.io/ignore: "true"
+    fluxcd.io/ignore: "false"
 spec:
   targetRef:
     apiVersion: apps/v1
